@@ -6,9 +6,9 @@ from langchain_core.tools import tool
 from pydantic import BaseModel, Field
 import pytest
 
-from protollm.connectors import create_llm_connector
-from protollm.connectors import CustomChatOpenAI
-from protollm.connectors import ChatRESTServer
+from protollm_publish_test.connectors import create_llm_connector
+from protollm_publish_test.connectors import CustomChatOpenAI
+from protollm_publish_test.connectors import ChatRESTServer
 
 
 @pytest.fixture
