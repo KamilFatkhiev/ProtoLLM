@@ -5,8 +5,8 @@ from deepeval.test_case import LLMTestCase
 from langchain_core.messages import AIMessage
 from pydantic import BaseModel, Field
 
-from protollm.metrics.deepeval_connector import DeepEvalConnector
-from protollm.metrics.evaluation_metrics import correctness_metric
+from protollm_publish_test.metrics.deepeval_connector import DeepEvalConnector
+from protollm_publish_test.metrics.evaluation_metrics import correctness_metric
 
 
 class Joke(BaseModel):
