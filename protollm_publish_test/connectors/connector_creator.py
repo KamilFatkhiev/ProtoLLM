@@ -11,10 +11,10 @@ from langchain_gigachat import GigaChat
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel, ValidationError
 
-from protollm.connectors.utils import (get_access_token,
+from protollm_publish_test.connectors.utils import (get_access_token,
                                        models_without_function_calling,
                                        models_without_structured_output)
-from protollm.definitions import CONFIG_PATH
+from protollm_publish_test.definitions import CONFIG_PATH
 
 
 load_dotenv(CONFIG_PATH)
